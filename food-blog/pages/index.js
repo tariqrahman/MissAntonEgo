@@ -1,11 +1,11 @@
-function Home() {
+const Home = (props) => {
   return(
-    <div className='text-red-500'>
-      <div className='text-blue-500'> Bloop </div>
-      Blah
+    <div className='h-screen bg-amber-50'>
+      <div className='grid-cols-1'>
+
+      </div>
     </div>
   )
-
 }
 
 export default Home;
