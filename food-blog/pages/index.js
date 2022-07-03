@@ -1,12 +1,13 @@
 import Cuisine from '../components/cuisine';
 
+
 const Home = (props) => {
   return (
     <div className="h-screen bg-amber-50">
       <div className="justify-center text-center pt-20 pb-5 text-3xl">
         MISS ANTON EGO
       </div>
-      <div className="relative">
+      <div className="relative pb-20">
         <div
           className="w-full absolute inset-0 flex items-center place-content-center"
           aria-hidden="true"
@@ -14,9 +15,14 @@ const Home = (props) => {
           <div className="w-48 border-t border-black" />
         </div>
       </div>
-      <div className= 'border-2 border-black w-1/2'>
-        <p className=''> Description ... </p>
+      <div className="w-full flex items-center place-content-center">
+        <p className="p-2 h-20 border border-black w-1/2 text-xs">
+          {' '}
+          Description ...{' '}
+        </p>
       </div>
+
+      
     </div>
   );
 };
