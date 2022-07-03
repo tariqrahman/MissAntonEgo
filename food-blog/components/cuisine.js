@@ -1,3 +1,5 @@
+import Restaurant from './restaurant'
+
 const Cuisine = (props) => {
     return (
         <>
