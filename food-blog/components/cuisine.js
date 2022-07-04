@@ -9,6 +9,8 @@ const Cuisine = () => {
       <div className='flex flex-col items-center pt-8'>
         {restaurants.map((restaurant) => (
           <Restaurant
+            id={restaurant.id}
+            key={restaurant.id}
             restaurant={restaurant.name}
             location={restaurant.location}
           />
