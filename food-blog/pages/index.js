@@ -1,7 +1,7 @@
 import Cuisine from '../components/cuisine';
 
 
-const Home = (props) => {
+const Homepage = (props) => {
   return (
     <div className="h-screen bg-amber-50">
       <div className="justify-center text-center pt-20 pb-5 text-3xl">
@@ -21,10 +21,9 @@ const Home = (props) => {
           Description ...{' '}
         </p>
       </div>
-
-      
+      <Cuisine />
     </div>
   );
 };
 
-export default Home;
+export default Homepage;
