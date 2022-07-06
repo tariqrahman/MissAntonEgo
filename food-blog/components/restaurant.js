@@ -5,8 +5,8 @@ const Restaurant = (props) => {
 
   return (
     <div className="w-1/2 pt-3">
-      <div className="w-full text-xs hover:text-sm">
-        <span className='hover:text-red-600 hover:underline'>
+      <div className="w-full text-sm hover:text-base">
+        <span className='hover:text-red-600 hover:italic'>
           <Link href={restaurantLink}>{props.restaurant}</Link>
         </span>
         <span className="float-right">{props.location}</span>
