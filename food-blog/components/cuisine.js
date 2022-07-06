@@ -12,8 +12,7 @@ const Cuisine = () => {
             id={restaurant.id}
             key={restaurant.id}
             restaurant={restaurant.name}
-            location={restaurant.location}
-          />
+            location={restaurant.location}          />
         ))}
       </div>
     </>

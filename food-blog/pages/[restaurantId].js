@@ -1,6 +1,6 @@
 const RestaurantPage = () => {
     return (
-        <div>
+        <div className="h-screen bg-amber-50">
             Hello World
         </div>
     )
