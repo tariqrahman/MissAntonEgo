@@ -1,7 +1,8 @@
 import Cuisine from '../components/cuisine';
 
-
 const Homepage = (props) => {
+  
+  
   return (
     <div className="h-screen bg-amber-50">
       <div className="justify-center text-center pt-20 text-3xl">
@@ -21,7 +22,8 @@ const Homepage = (props) => {
           Description ...{' '}
         </p>
       </div>
-      <Cuisine />
+      <Cuisine title={'American'} type={'american'} />
+      <Cuisine title={'Mexican'} type={'mexican'} />
     </div>
   );
 };
